@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "20.1.0",
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "module": "NodeNext",
+    "target": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": false
+  },
+  "exclude": ["__tests__/**/*"]
+}
