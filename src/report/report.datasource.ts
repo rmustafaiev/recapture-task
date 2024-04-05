@@ -1,6 +1,5 @@
 import * as fs from "node:fs";
 import {ReadStream} from "node:fs";
-import { ReadableStream } from "node:stream/web";
 
 export const JSON_OPT = {
     headers: {
@@ -17,15 +16,6 @@ export function createReadableWebStream(url: string):Promise<any>{
         }
         resolve(response.body);
     })
-}
-
-export function createReadableWebStream2(url: string):Promise<any>{
-    return fetch(url, JSON_OPT)
-        .then(res => {
-            if (!res.ok)
-                throw new Error(`Unable to fetch  ${res.statusText}`);
-          return res.body;
-        })
 }
 
 export function createReadableFsStream(fileName: string): ReadStream {

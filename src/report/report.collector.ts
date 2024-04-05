@@ -1,7 +1,6 @@
 import StreamArray from "stream-json/streamers/StreamArray.js";
 import {promisify} from "node:util";
 import stream from "node:stream";
-import {ReadableStream} from "node:stream/web";
 import {ReadStream} from "node:fs";
 import {Calculator} from "./report.calculator.js";
 import EventEmitter from "node:events";
@@ -22,7 +21,6 @@ export class Collector extends EventEmitter implements Collector {
 
     constructor() {
         super();
-        this.emit('pending');
     }
     protected setStatus(status: Status) {
         if (status !== this._status) {

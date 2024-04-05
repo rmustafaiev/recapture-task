@@ -59,9 +59,6 @@ export async function execute() {
         debouncedPrintReport([cartCollector, orderCollector]);
 
         await Promise.all([orderPromise, cartPromise])
-
-        // console.log("cartCalculator.result: ", cartCollector.calculator.result());
-        // console.log("orderCalculator.result: ", orderCollector.calculator.result());
     } catch (err: any) {
         console.error(err);
     }
