@@ -30,3 +30,7 @@ build/
 
 # Build/Dist
 dist/
+
+# tmp
+./tmp
+tmp/

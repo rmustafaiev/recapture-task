@@ -1,0 +1,31 @@
+{
+  "created_at": "2024-03-27T10:45:15.169Z",
+  "is_assisted_conversion": false,
+  "is_converted": false,
+  "tags": [],
+  "grand_total": 47.496568877193,
+  "products": [
+    {
+      "options": [],
+      "category_ids": [],
+      "category_names": [],
+      "tags": [],
+      "automatic_discounts": [],
+      "price_local": null,
+      "qty": 1,
+      "external_id": "6159",
+      "product_id": "6159",
+      "variant_id": "6159",
+      "image": "https://cdn.recapture.io/assets/demo-products/product-3.jpg",
+      "price_display": null,
+      "price": 47.496568877193,
+      "sku": "6159",
+      "name": "Versace"
+    }
+  ],
+  "conversion_attribution": {
+    "welcome": false,
+    "winback": false,
+    "abandoned_cart": false
+  }
+}

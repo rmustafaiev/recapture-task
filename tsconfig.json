@@ -2,9 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "20.1.0",
   "compilerOptions": {
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "module": "NodeNext",
     "target": "esnext",
     "strict": true,
@@ -15,5 +13,5 @@
     "resolveJsonModule": true,
     "sourceMap": false
   },
-  "exclude": ["__tests__/**/*"]
+  "exclude": ["__tests__/**/*", "tmp/**/*"]
 }
