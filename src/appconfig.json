@@ -1,8 +1,8 @@
 {
-    "order_feed": "https://cdn.recapture.io/coding-task/demo-orders-v2.json",
-    "cart_feed": "https://cdn.recapture.io/coding-task/demo-orders-v2.json",
-    "sources_dir": "res",
-    "cart_file_path": "demo-carts.json",
-    "order_file_path": "demo-orders.json",
-    "use_feed_sources": false
+  "order_feed": "https://cdn.recapture.io/coding-task/demo-orders-v2.json",
+  "cart_feed": "https://cdn.recapture.io/coding-task/demo-orders-v2.json",
+  "sources_dir": "res",
+  "cart_file_path": "demo-carts.json",
+  "order_file_path": "demo-orders.json",
+  "use_feed_sources": false
 }
